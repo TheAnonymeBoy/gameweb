@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jeu Space Ship</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>JEU SPACE SHIP</h1>
+    <p id="positionDisplay">Position du joueur: X = 0, Y = 0</p>
+    <p>Vie : <span id="player-health">1000</span>/1000</p>
+    <div id="score">Score: 0</div>
+  </header>
+
+  <div id="health-bar-container">
+    <div id="health-bar"></div>
+  </div>
+
+  <div id="arena">
+    <div id="player">
+      <img id="sprite" src="./img/frame1.png" alt="Vaisseau spatial">
+    </div>
+  </div>
+
+  <button id="playBtn">PLAY</button>
+  <button id="replayBtn" style="display:none;">Rejouer</button>
+
+  <script src="code.js"></script>
+</body>
+</html>
